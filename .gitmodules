@@ -1,0 +1,24 @@
+[submodule "Bootstrap-Portfolio"]
+	path = Bootstrap-Portfolio
+	url = https://github.com/klivingston7/Bootstrap-Portfolio.git
+[submodule "Responsive-Portfolio"]
+	path = Responsive-Portfolio
+	url = https://github.com/klivingston7/Responsive-Portfolio.git
+[submodule "WordGuessGame"]
+	path = WordGuessGame
+	url = https://github.com/klivingston7/WordGuessGame.git
+[submodule "unit-4-game"]
+	path = unit-4-game
+	url = https://github.com/klivingston7/unit-4-game.git
+[submodule "TriviaGame"]
+	path = TriviaGame
+	url = https://github.com/klivingston7/TriviaGame.git
+[submodule "giphy"]
+	path = giphy
+	url = https://github.com/klivingston7/giphy.git
+[submodule "Train-Scheduler"]
+	path = Train-Scheduler
+	url = https://github.com/klivingston7/Train-Scheduler.git
+[submodule "GroupProject1"]
+	path = GroupProject1
+	url = https://github.com/Zy-phr/GroupProject1.git
