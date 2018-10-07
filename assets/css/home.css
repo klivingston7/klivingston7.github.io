@@ -126,6 +126,9 @@ footer {
   }
 
 @media screen and (max-width: 600px) {
+    h1 {
+        width: 77% !important;
+    }
     .mainH2 {
         font-size: 25px;
     }
