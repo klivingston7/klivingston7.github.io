@@ -205,6 +205,12 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+    h5 {
+        font-style: oblique;
+    }
+    h1 {
+        font-style: oblique;
+    }
     .mainH2 {
         font-size: 17px;
     }
@@ -217,7 +223,12 @@ footer {
   }
 
 @media screen and (max-width: 600px) {
-    
+    h5 {
+        font-style: oblique;
+    }
+    h1 {
+        font-style: oblique;
+    }
     .product-title {
         font-size: 1rem !important;
         font-weight: 600;
