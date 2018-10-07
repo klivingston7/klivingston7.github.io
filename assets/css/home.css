@@ -116,6 +116,8 @@ footer {
 
 @media screen and (max-width: 992px) {
     .mainH2 {
+        font-size: 25px;
+        font-style: oblique;
     }
     .mainImg {
         max-width: 400px
@@ -130,7 +132,8 @@ footer {
         width: 77% !important;
     }
     .mainH2 {
-        font-size: 25px;
+        font-size: 23px;
+        font-style: oblique;
     }
     .mainImg {
         max-width: 300px
