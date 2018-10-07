@@ -1,0 +1,267 @@
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: none !important;
+}
+
+.backstretch { 
+    opacity: .3;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+
+.mainImg {
+    max-width: 700px;
+    max-height: 450px;
+}
+.headerImg {
+    max-height: 40px;
+    padding-right: 15px;
+}
+
+/*  Header  */
+h5 {
+    letter-spacing: 3px;
+    font-size: 1.75rem !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#kl-H1 {
+    text-decoration: none;
+    color: white !important;
+}
+#kl-H2 {
+    text-decoration: none;
+    color: black !important;
+}
+.headLink{
+    text-decoration: none !important;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.headLink:hover{
+    color: #5f5e5e;
+}
+#contact{
+    text-decoration: none !important;
+    color: rgb(56, 121, 164);
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+#contact:hover{
+    color: rgb(116, 175, 215);
+}
+.cartImg {
+    max-height: 35px;
+}
+.cartImg:hover {
+    transform: scale(1.1);
+}
+.cart{
+    text-decoration: none !important;
+    color: rgb(56, 121, 164);
+    font-weight: 500;
+}
+.cart:hover {
+    color: rgb(116, 175, 215);
+}
+
+
+.card-body {
+    background-color: #F5F6F7;
+}
+.product-title {
+    font-size: 2.55rem !important;
+}
+.tile-title {
+    font-size: 1.1rem !important;
+    font-weight: 200 !important;
+}
+#productPic {
+    float: right !important;
+    width: 50%;
+    margin-top: -55px;
+}
+.portImg {
+    float:left;
+    height: 160px;
+    width: 150px;
+    margin: 10px 20px 1px 15px;
+}
+.portP{
+    margin-right: 15px;
+    padding-left: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+/*  Columns  */
+.colHead {
+    margin-top: 0px !important;
+}
+.colOver {
+    position: relative;
+  }
+  .columnImg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(70, 119, 152);
+  }
+  .colOver:hover .overlay {
+    opacity: .9;
+  }
+  
+  .text {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+  }
+  .col-Btn {
+    padding: 18px, 30px;
+    font-family: 'Open Sans', sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: 2px solid rgb(56, 121, 164);
+    text-decoration: none;
+    color: rgb(56, 121, 164);
+    background-color: transparent;
+    margin-top: 12px;
+    }
+    .col-Btn:hover {
+    border: 2px solid rgb(69, 129, 169);
+    background-color: rgb(69, 129, 169);
+    color: #FFF;
+    }
+
+/*  Survey  */
+.headContent {
+    letter-spacing: 1px;
+    font-size: 11px;
+    color: rgb(56, 121, 164);
+}
+.headContent:hover {
+    color: rgb(116, 175, 215);
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 21px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 350;
+    margin-bottom: 21px;
+}
+
+h4 {
+    margin-top: 21px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300;
+    margin-bottom: 21px;
+}
+
+/* Footers */
+
+footer {
+    margin-top: 75px;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+
+.surFooter {
+    margin-top: 25px;
+}
+
+.footContent {
+    color: rgb(56, 121, 164);
+}
+.footContent:hover {
+    color: rgb(116, 175, 215);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .mainH2 {
+        font-size: 17px;
+    }
+    .mainImg {
+        max-width: 400px
+    }
+    #matchImg {
+        width: 300px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    
+    .product-title {
+        font-size: 1rem !important;
+        font-weight: 600;
+    }
+    .tile-title {
+        font-size: .8rem !important;
+        font-weight: 200 !important;
+    }
+    
+    #productPic {
+        float: right !important;
+        width: 95px;
+        margin-top: -28px;
+        margin-bottom: 15px;
+        
+    }
+    .mainH2 {
+        font-size: 15px;
+    }
+    .mainImg {
+        max-width: 300px;
+    }
+    #matchImg {
+        width: 200px;
+    }
+    .headLink {
+        font-size: 11px;
+    }
+    #contact {
+        font-size: 11px;
+    }
+    .cart {
+        font-size: 11px;
+    }
+    .carCap{
+        font-size: .9rem;
+    }
+    .cartImg {
+       max-height: 23px;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    .carousel-caption {
+        padding-bottom: 15px;
+    }
+  }

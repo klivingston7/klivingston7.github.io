@@ -1,0 +1,138 @@
+.bg {
+    background: url(../images/colorBG.jpg) no-repeat center center;
+    position: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 682px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.header {
+    background: transparent !important;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height: 600px;
+    color: white;
+    background:transparent;
+    text-shadow: rgb(34, 87, 122) 1.5px 3.5px 6px
+}
+  
+/* h1 {
+    font-size: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 550;
+    margin-top: 155px;
+    margin-bottom: 21px;
+    letter-spacing: 2px;
+    color: white;;
+} */
+
+h1 {
+    font-size: 48px;
+    margin-top: 70px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 67%;
+}
+
+h5 {
+    letter-spacing: 3px;
+    font-size: 1.75rem !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+.headLink{
+    text-decoration: none !important;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.headLink:hover{
+    color: rgb(138, 176, 200);
+}
+#contact{
+    text-decoration: none !important;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+#contact:hover{
+    color: rgb(138, 176, 200);
+}
+  
+#col-Btn {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Open Sans', sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    margin-top: 12px;
+    }
+    #col-Btn:hover {
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(69, 129, 169);
+    }
+
+
+/* Footers */
+
+footer {
+    margin-top: 75px;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+
+.surFooter {
+    margin-top: 25px;
+}
+
+.footContent {
+    color: white;
+}
+
+.footContent:hover {
+    color: rgb(69, 129, 169);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .mainH2 {
+    }
+    .mainImg {
+        max-width: 400px
+    }
+    #matchImg {
+        width: 300px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .mainH2 {
+        font-size: 25px;
+    }
+    .mainImg {
+        max-width: 300px
+    }
+    #matchImg {
+        width: 200px;
+    }
+  }

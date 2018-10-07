@@ -24,36 +24,30 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <!-- Linking Personal CSS -->
     <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
-    <link type="text/css" rel="stylesheet" href="./assets/css/home.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
 </head>
 
-<body>
-    <div class="bg"></div>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm header">
-        <h5 class="navbar navbar-expand-md my-0 mr-md-auto font-weight-normal">
-            <a id="kl-H1" href="./index.html">Kitt Livingston</a>
-        </h5>
-        </a>
-        <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 headLink" href="./portfolio.html">Portfolio</a>
-            <a class="p-2" id="contact" href="./about.html">About</a>
-            <a class="p-2" id="contact" href="./contact.html">Contact</a>
-        </nav>
-    </div>
-    <div class="jumbotron">
-        <div class="container text-center">
-            <div id="content">
-                <h1 class="mainH2 text-center">
-                    Hi, I'm Kitt.
-                </h1>
-                <h1 class="mainH2 text-center">
-                    Full-Stack Web Designer & Developer based in Dallas, TX.
-                </h1>
-            </div>
-        </div>
-    </div>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm header">
+    <h5 class="navbar navbar-expand-md my-0 mr-md-auto font-weight-normal">
+        <a id="kl-H2" href="./index.html">Kitt Livingston</a>
+    </h5>
+    </a>
+    <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 headLink" href="./portfolio.html">Portfolio</a>
+        <a class="p-2" id="contact" href="./about.html">About</a>
+        <a class="p-2" id="contact" href="./contact.html">Contact</a>
+    </nav>
+</div>
+
+<main role="main">
+
     <div class="container">
+        <header class="">
+            <h1>
+                Portfolio
+            </h1>
+        </header>
+        <hr>
         <div class="row">
             <div class="col-sm-12" style="margin-bottom: 15px;">
                 <div class="card">
@@ -160,24 +154,16 @@
                 </div>
             </div>
         </div>
-    </div>
+</main>
 
-</body>
 
 <footer class="container text-center">
     <p> Kitt Livingston</p>
 </footer>
 
-<script>
-    var jumboHeight = $('.jumbotron').outerHeight();
-    function parallax() {
-        var scrolled = $(window).scrollTop();
-        $('.bg').css('height', (jumboHeight - scrolled) + 'px');
-    }
-
-    $(window).scroll(function (e) {
-        parallax();
-    });
-</script>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
 
 </html>
