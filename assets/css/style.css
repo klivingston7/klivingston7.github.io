@@ -205,12 +205,6 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-    h5 {
-        font-style: oblique;
-    }
-    h1 {
-        font-style: oblique;
-    }
     .mainH2 {
         font-size: 17px;
     }
@@ -219,6 +213,13 @@ footer {
     }
     #matchImg {
         width: 300px;
+    }
+    #productPic {
+        float: right !important;
+        width: 117px;
+        margin-top: -10px;
+        margin-bottom: 15px;
+        height: 94px;
     }
   }
 
@@ -230,7 +231,7 @@ footer {
     #kl-H1 {
         font-style: oblique;
     }
-    
+
     .product-title {
         font-size: 1rem !important;
         font-weight: 600;
@@ -242,10 +243,10 @@ footer {
     
     #productPic {
         float: right !important;
-        width: 95px;
-        margin-top: -28px;
+        width: 117px;
+        margin-top: -10px;
         margin-bottom: 15px;
-        
+        height: 94px;
     }
     .mainH2 {
         font-size: 15px;
