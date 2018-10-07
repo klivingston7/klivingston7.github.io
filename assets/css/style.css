@@ -205,9 +205,6 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-    h1 {
-        font-style: oblique;
-    }
     #kl-H1, #kl-H2 {
         font-style: oblique;
     }
@@ -262,9 +259,6 @@ footer {
   }
 @media screen and (max-width: 600px) {
 
-    h1 {
-        font-style: oblique;
-    }
     #kl-H1, #kl-H2 {
         font-style: oblique;
     }
